@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: MIT
+
+config SHIELD_CORNE_RIGHT
+    bool "Shield: corne_right"
+    select ZMK_KEYBOARD

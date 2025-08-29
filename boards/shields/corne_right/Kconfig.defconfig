@@ -1,0 +1,23 @@
+# SPDX-License-Identifier: MIT
+
+if SHIELD_CORNE_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "corne_right"
+
+config ZMK_MATRIX_ROWS
+    default 4
+
+config ZMK_MATRIX_COLS
+    default 6
+
+config ZMK_MATRIX_ROW_PINS
+    default "D2 D3 D4 D5"
+
+config ZMK_MATRIX_COL_PINS
+    default "D20 D21 D9 D8 D7 D6"
+
+config ZMK_SPLIT_ROLE
+    default "right"
+
+endif
